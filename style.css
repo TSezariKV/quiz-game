@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    font-family: arial;
+}
+
+/*============= Start Page =============*/
+
+.start-btn {
+    padding: 10px 50px;
+    font-size: 25px;
+    border: 2px solid #fff;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+.start-btn:hover {
+    border: 2px solid #111;
+    background: #fff;
+    color: #000;
+}
+
+/*============= Game Page =============*/
+
+.container {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #fff;
+    width: 800px;
+    height: 500px;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.question {
+    font-size: 35px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.buttons {
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn {
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+    margin: 50px;
+    margin-bottom: 0;
+    border: 2px solid #fff;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+.btn:hover {
+    border: 2px solid #111;
+    background: #fff;
+    color: #000;
+}
+.next-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    visibility: hidden;
+}
+.next-btn:hover {
+    border: 2px solid #111;
+    background: #fff;
+    color: #000;
+}
