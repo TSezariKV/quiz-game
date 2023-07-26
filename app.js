@@ -1,4 +1,3 @@
-const startButton = document.querySelector('.start-btn')
 const question = document.querySelector('.question')
 const buttons = document.querySelectorAll('.btn')
 const nextButton = document.querySelector('.next-btn')
@@ -94,7 +93,3 @@ function nextQuestion() {
 }
 
 nextButton.addEventListener('click', nextQuestion)
-
-startButton.addEventListener('click', () => {
-    location.href = 'game.html'
-})
