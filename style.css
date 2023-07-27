@@ -85,3 +85,11 @@ body {
     background: #fff;
     color: #000;
 }
+.questions-left {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
